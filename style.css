@@ -1,0 +1,90 @@
+body {
+   background-color: antiquewhite;
+   height: 100vh;
+   font-family: 'Caveat', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Signika Negative', sans-serif;
+font-family: 'Vollkorn', serif;
+
+}
+
+
+/*center logo below*/
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    gap: 5em;
+    font-size: 1.5em;
+
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;  
+}
+
+a:hover {
+    background-color: rgb(192, 186, 186);
+}
+
+.section{
+   display: flex;
+   justify-content: center;
+}
+
+.article2 {
+    
+    padding: 2em;
+}
+
+.banner2{
+    text-align: center;
+    display: block;
+    width: 200px;
+}
+
+.banner3 {
+    margin: 0;
+}
+
+
+section.section1 {
+    background-color: #CEDEBD;
+    animation: mymove 5s infinite;
+    margin-left: 5em;
+    margin-right: 5em;
+    border-radius: 10em;
+    flex: 1;
+    justify-content: center;
+}
+
+@keyframes mymove {
+  from {background-color: antiquewhite;}
+  to {background-color: #CEDEBD;}
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    gap: 5em;
+    
+}
